@@ -1,0 +1,95 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Wonder Tales</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">{{ folder }}</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <div class="container">
+      <ion-row class="ion-text-center" style="padding: 3%;">
+        <ion-col size="5.5" (click)="imagenClick1()">
+          <div class="container_tail">
+            <ion-img src="../../assets/img/rabbit.png" width="50%"></ion-img>
+            <h1>El pequeño Pom-Pom</h1>
+          </div>
+        </ion-col>
+        <ion-col size="1"></ion-col>
+        <ion-col size="5.5" (click)="imagenClick2()">
+          <div class="container_tail">
+            <ion-img src="../../assets/img/rat.png" width="50%"></ion-img>
+            <h1>El ratón de biblioteca</h1>
+          </div>
+        </ion-col>
+      </ion-row>
+  </div>
+
+  
+
+
+  <div class="container">
+    <ion-row class="ion-text-center" style="padding: 3%;">
+      <ion-col size="5.5" (click)="imagenClick3()">
+        <div class="container_tail">
+          <ion-img src="../../assets/img/bee.png" width="50%"></ion-img>
+          <h1>Historia de una Pradera</h1>
+        </div>
+        
+      </ion-col>
+      <ion-col size="1"></ion-col>
+      <ion-col size="5.5" (click)="imagenClick4()">
+        <div class="container_tail">
+          <ion-img src="../../assets/img/elephant.png" width="50%"></ion-img>
+          <h1>El Elefante Curioso</h1>
+        </div>
+      </ion-col>
+    </ion-row>
+  </div>
+
+  <div class="container">
+    <ion-row class="ion-text-center" style="padding: 3%;">
+      <ion-col size="5.5" (click)="imagenClick5()">
+        <div class="container_tail">
+          <ion-img src="../../assets/img/squirrell.png" width="50%"></ion-img>
+          <h1>El Bosque y la Ardilla</h1>
+        </div>
+        
+      </ion-col>
+      <ion-col size="1"></ion-col>
+      <ion-col size="5.5" (click)="imagenClick6()">
+        <div class="container_tail">
+          <ion-img src="../../assets/img/girl.png" width="50%"></ion-img>
+          <h1>El Secreto de la Playa</h1>
+        </div>
+      </ion-col>
+    </ion-row>
+  </div>
+
+  <div class="container">
+    <ion-row class="ion-text-center" style="padding: 3%;">
+      <ion-col size="5.5" (click)="imagenClick7()">
+        <div class="container_tail">
+          <ion-img src="../../assets/img/knight.png" width="50%"></ion-img>
+          <h1>El Valiente Caballero</h1>
+        </div>
+        
+      </ion-col>
+      <ion-col size="1"></ion-col>
+      <ion-col size="5.5" (click)="imagenClick8()">
+        <div class="container_tail">
+          <ion-img src="../../assets/img/turtle.png" width="50%"></ion-img>
+          <h1>La Llave Dorada</h1>
+        </div>
+      </ion-col>
+    </ion-row>
+  </div>
+  
+</ion-content>
